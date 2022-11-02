@@ -20,3 +20,27 @@ int main()
 	{
 		printf("zayif");
 	}
+	
+	else if(vki<=25)
+	{
+		printf("normal");
+	}
+	
+	else if(vki<=30)
+	{
+		printf("fazla kilolu");
+	}
+	
+	else if(vki<=35 && vki<=45)
+	{
+		printf("sisman");
+	}
+	
+	else
+	{
+	    printf("asiri sisman");
+	}
+	
+	return 0;	
+}
+
